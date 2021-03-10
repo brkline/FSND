@@ -8,7 +8,7 @@ from sqlalchemy.sql.functions import func
 
 from werkzeug.exceptions import HTTPException
 
-from backend.models import setup_db, Question, Category
+from models import setup_db, Question, Category
 
 QUESTIONS_PER_PAGE = 10
 
