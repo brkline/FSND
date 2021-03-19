@@ -266,6 +266,9 @@ dist
 # Local History for Visual Studio Code
 .history/
 
+# PyCharm
+.idea/
+
 # OS generated files #
 ######################
 .DS_Store

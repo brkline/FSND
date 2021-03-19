@@ -1,7 +1,8 @@
 astroid==2.2.5
 Click==7.0
 ecdsa==0.13.2
-Flask==1.0.2
+# Changed to version 1.0.3
+Flask==1.0.3
 Flask-SQLAlchemy==2.4.0
 future==0.17.1
 isort==4.3.18
@@ -14,11 +15,15 @@ pycryptodome==3.3.1
 pylint==2.3.1
 python-jose-cryptodome==1.3.2
 six==1.12.0
-SQLAlchemy==1.3.3
+# Changed to 1.3.4
+SQLAlchemy==1.3.4
 # Based on issue opened in GitHub repository, changed version
 # to 1.4.0.
 # https://github.com/python/typed_ast/issues/126
 typed-ast==1.4.0
-Werkzeug==0.15.2
+# Based on StackOverlow answer, I changed from
+# 0.15.4 to 0.15.5 due to error I was getting.
+# https://stackoverflow.com/a/60140477
+Werkzeug==0.15.5
 wrapt==1.11.1
 Flask-Cors==3.0.8
