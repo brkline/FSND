@@ -178,7 +178,7 @@ def check_permissions(permission, payload):
 
 def requires_auth(permission=''):
     '''This function is used to check if the authorized user has the
-    appropriate permissions if applicable. 
+    appropriate permissions for the endpoint. 
 
     Args:
         permission (str, optional): Permission to check. Defaults to ''.
